@@ -8,24 +8,15 @@ import {NgIf}  from '@angular/common';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'loginpagedatabinding';
-  loginflag : boolean =false;
-  dashflag :boolean =false;
-    
-  constructor(private router : Router)
-  {
+  title(title: any) {
+    throw new Error('Method not implemented.');
+  }
+  loggedIn: boolean = false;
+  loggedInUser: { userID: string } = { userID: '' };
 
-  }
-  loginclick()
-  {
-    this.loginflag = true;
-    this.dashflag = false;
-    this.router.navigate(['login']);
-  }
-  dashboardclick()
-  {
-    this.loginflag =false;
-    this.dashflag = true;
-    this.router.navigate(['dashboard']);
+  onLoginSuccess(userData: { userID: string }) {
+    this.loggedIn = true;
+    this.loggedInUser.userID = userData.userID;
+    
   }
 }
