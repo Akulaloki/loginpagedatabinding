@@ -1,0 +1,34 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "Complete Angular project",
+      "status": "pending"
+    },
+    {
+      "id": 2,
+      "title": "Read a book",
+      "status": "pending"
+    },
+    {
+      "id": 3,
+      "title": "Go for a run",
+      "status": "done"
+    },
+    {
+      "title": "Hello there",
+      "status": "pending",
+      "id": 5
+    },
+    {
+      "title": "krishna book",
+      "status": "done",
+      "id": 6
+    },
+    {
+      "title": "jghjnk",
+      "status": "done",
+      "id": 7
+    }
+  ]
+}

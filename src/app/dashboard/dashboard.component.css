@@ -1,0 +1,65 @@
+/* Styles for the provided form and elements */
+
+/* Form Container */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(45deg, #3498db, #2c3e50);
+    color: #fff;
+  }
+  
+  /* Form Title */
+  h2[mat-title] {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Field Labels */
+  mat-label {
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  /* Form Fields */
+  mat-form-field {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  /* Input Text Color */
+  input.mat-input-element {
+    color: #fff;
+  }
+  
+  /* Buttons */
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Form Error Messages */
+  .mat-form-field-invalid .mat-form-field-underline {
+    background-color: #f44336 !important;
+  }
+  
+  .mat-form-field-invalid .mat-form-field-label {
+    color: #f44336 !important;
+  }
+  
+  .mat-form-field-invalid .mat-input-element {
+    color: #f44336;
+  }
+  
